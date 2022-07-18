@@ -1,0 +1,366 @@
+/*css untuk modal*/
+
+
+/*modal added*/
+
+.modal {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    display: inline;
+    margin-top: -4px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*modal deleted*/
+
+.modaldel {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contentdel {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -4px;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*modal warning*/
+
+.modalwarning {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contentwarning {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*modal edit*/
+
+.modaledit {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-contentedit {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*modal update*/
+
+.modalbaru {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contentbaru {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.close4 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.diedit {
+    margin-bottom: 10px;
+}
+
+#save {
+    background-color: blue;
+    display: inline;
+    float: right;
+}
+
+#cancel {
+    background-color: gray;
+    display: inline;
+    float: right;
+}
+
+.edit {
+    background-color: #47a23f;
+    width: 60px;
+    display: inline;
+    color: white;
+}
+
+.delete {
+    background-color: #9a9500;
+    width: 60px;
+    display: inline;
+    color: white;
+}
+
+
+/*edit data*/
+
+#editdata {
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    background-color: #9ea700;
+    padding: 20px;
+    color: white;
+}
+
+#garisdata {
+    border: solid black 1px;
+    background-color: black;
+}
+
+
+/*style added*/
+
+.added {
+    display: inline;
+    margin-left: 10px;
+}
+
+.jna {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+#ditambahkan {
+    background-color: rgb(0, 255, 85);
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 30px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+
+/*deleted*/
+
+.deleted {
+    display: inline;
+    margin-left: 10px;
+}
+
+.jnd {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+#dihapus {
+    background-color: rgb(209, 9, 9);
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 30px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+
+/*warning*/
+
+.warning {
+    display: inline;
+    margin-left: 10px;
+}
+
+.jnw {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+#diwarning {
+    background-color: yellow;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 30px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+
+/*update*/
+
+.updated {
+    display: inline;
+    margin-left: 10px;
+}
+
+.jnu {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+#diupdate {
+    background-color: rgb(0, 217, 255);
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 30px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#nimedit {
+    padding: 8px;
+    width: 92%;
+    border: solid 3px;
+}
+
+#namaedit {
+    padding: 8px;
+    width: 92%;
+    border: solid 3px;
+}
+
+#alamatedit {
+    padding: 8px;
+    width: 92%;
+    border: solid 3px;
+}

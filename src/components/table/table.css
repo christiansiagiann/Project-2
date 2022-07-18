@@ -1,0 +1,23 @@
+/*table*/
+
+table,
+th,
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
+
+#show {
+    width: 40px;
+    border: solid 3px;
+    background-color: #d0debb;
+}

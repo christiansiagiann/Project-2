@@ -1,0 +1,31 @@
+#nim {
+    padding: 8px;
+    width: 70%;
+    border: solid 3px;
+    background-color: #d0debb;
+}
+
+#nama {
+    padding: 8px;
+    width: 70%;
+    border: solid 3px;
+    background-color: #d0debb;
+}
+
+#alamat {
+    padding: 8px;
+    width: 70%;
+    border: solid 3px;
+    background-color: #d0debb;
+}
+
+#tambah {
+    background-color: #79c300;
+    color: white;
+}
+
+#reset {
+    background-color: #ece81a;
+    color: rgb(9, 53, 3);
+    margin-right: 10px;
+}

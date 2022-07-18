@@ -1,0 +1,43 @@
+/*header1*/
+
+#header1 {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+    background: #59621d;
+}
+
+.header1 {
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+/*header2*/
+
+#hello {
+    display: inline;
+    color: white;
+    margin-left: 10px;
+}
+
+#header2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #9ea700;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+
+
+/*jam*/
+
+#jam {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    font-size: larger;
+    color: white;
+}
