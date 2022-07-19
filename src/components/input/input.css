@@ -29,3 +29,17 @@
     color: rgb(9, 53, 3);
     margin-right: 10px;
 }
+
+body {
+    background-color: #d9ea9a;
+}
+
+
+/*button*/
+
+.button {
+    float: right;
+    padding: 7px;
+    height: 40px;
+    width: 90px;
+}
